@@ -1,0 +1,52 @@
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to right, #111827, #0f172a, #1e293b);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 6px solid white;
+      object-fit: cover;
+      margin: top;
+      padding-top: 10px;
+      
+    }
+
+    .name {
+      margin-top: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .roles {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+    .name-signup {
+        border-radius: 50%;
+        border-width: 20px;
+        border-color: white;
+    }
+    .message-button {
+        
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Replace 'your-image.png' with your actual image file name -->
+  <img src="your-image.png" alt="Hassan Hamzah" class="profile-pic">
+
+  <div class="name">Hassan Hamzah</div>
+  <div class="roles">Content Writer • Article Writer • Research Writer</div
